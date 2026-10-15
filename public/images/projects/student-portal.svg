@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bgGrad)" />
+
+  <!-- Window Header -->
+  <rect width="800" height="44" fill="#0f172a" />
+  <circle cx="28" cy="22" r="6" fill="#ef4444" />
+  <circle cx="48" cy="22" r="6" fill="#f59e0b" />
+  <circle cx="68" cy="22" r="6" fill="#10b981" />
+  <text x="400" y="27" font-family="'JetBrains Mono', monospace" font-size="12" fill="#64748b" text-anchor="middle">Student Management Portal — v1.0.0</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="44" width="180" height="456" fill="#0b1120" />
+  <rect x="18" y="70" width="144" height="32" rx="6" fill="#1e293b" />
+  <text x="32" y="91" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#38bdf8">Dashboard</text>
+  <rect x="18" y="112" width="144" height="28" rx="6" fill="transparent" />
+  <text x="32" y="131" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#94a3b8">Students List</text>
+  <rect x="18" y="148" width="144" height="28" rx="6" fill="transparent" />
+  <text x="32" y="167" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#94a3b8">Registrations</text>
+  <rect x="18" y="184" width="144" height="28" rx="6" fill="transparent" />
+  <text x="32" y="203" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#94a3b8">Reports</text>
+
+  <!-- Main Content Area -->
+  <g transform="translate(204, 64)">
+    <!-- Header search & add button -->
+    <rect width="360" height="38" rx="8" fill="#1e293b" stroke="#334155" />
+    <text x="18" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#64748b">Search by Roll No, Name or Department...</text>
+    <rect x="440" y="0" width="136" height="38" rx="8" fill="url(#accentGrad)" />
+    <text x="508" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">+ Add Student</text>
+
+    <!-- Stats row -->
+    <rect x="0" y="56" width="176" height="74" rx="8" fill="#0f172a" stroke="#1e293b" />
+    <text x="16" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94a3b8">Total Enrolled</text>
+    <text x="16" y="112" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" font-weight="700" fill="#f8fafc">1,248</text>
+
+    <rect x="198" y="56" width="176" height="74" rx="8" fill="#0f172a" stroke="#1e293b" />
+    <text x="214" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94a3b8">Active Courses</text>
+    <text x="214" y="112" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" font-weight="700" fill="#38bdf8">34</text>
+
+    <rect x="396" y="56" width="180" height="74" rx="8" fill="#0f172a" stroke="#1e293b" />
+    <text x="412" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94a3b8">Verified Records</text>
+    <text x="412" y="112" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" font-weight="700" fill="#10b981">100%</text>
+
+    <!-- Table -->
+    <rect x="0" y="148" width="576" height="260" rx="8" fill="#0f172a" stroke="#1e293b" />
+    <!-- Table Header -->
+    <rect x="0" y="148" width="576" height="36" rx="8" fill="#1e293b" />
+    <text x="20" y="171" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#94a3b8">ID</text>
+    <text x="80" y="171" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#94a3b8">NAME</text>
+    <text x="240" y="171" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#94a3b8">BRANCH</text>
+    <text x="380" y="171" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#94a3b8">STATUS</text>
+    <text x="490" y="171" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#94a3b8">ACTIONS</text>
+
+    <!-- Row 1 -->
+    <text x="20" y="210" font-family="'JetBrains Mono', monospace" font-size="11" fill="#38bdf8">#CS-2024</text>
+    <text x="80" y="210" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#f8fafc">Anjali H.</text>
+    <text x="240" y="210" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#cbd5e1">Computer Science</text>
+    <rect x="376" y="196" width="60" height="20" rx="10" fill="#065f46" />
+    <text x="406" y="210" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#34d399" text-anchor="middle">Active</text>
+    <text x="490" y="210" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#818cf8">Edit • View</text>
+
+    <!-- Row 2 -->
+    <line x1="16" y1="228" x2="560" y2="228" stroke="#1e293b" />
+    <text x="20" y="252" font-family="'JetBrains Mono', monospace" font-size="11" fill="#38bdf8">#CS-2025</text>
+    <text x="80" y="252" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#f8fafc">Pooja K.</text>
+    <text x="240" y="252" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#cbd5e1">Computer Science</text>
+    <rect x="376" y="238" width="60" height="20" rx="10" fill="#065f46" />
+    <text x="406" y="252" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#34d399" text-anchor="middle">Active</text>
+    <text x="490" y="252" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#818cf8">Edit • View</text>
+  </g>
+</svg>

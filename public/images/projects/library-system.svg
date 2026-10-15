@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="bookGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bgGrad)" />
+
+  <!-- Window Header -->
+  <rect width="800" height="44" fill="#0f172a" />
+  <circle cx="28" cy="22" r="6" fill="#ef4444" />
+  <circle cx="48" cy="22" r="6" fill="#f59e0b" />
+  <circle cx="68" cy="22" r="6" fill="#10b981" />
+  <text x="400" y="27" font-family="'JetBrains Mono', monospace" font-size="12" fill="#64748b" text-anchor="middle">Library Management System — Catalog &amp; Circulation</text>
+
+  <!-- Left Sidebar -->
+  <g transform="translate(30, 65)">
+    <rect width="210" height="400" rx="10" fill="#0f172a" stroke="#1e293b" />
+    <text x="20" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#f8fafc">Quick Circulation</text>
+
+    <!-- Issue Book Box -->
+    <rect x="16" y="52" width="178" height="150" rx="8" fill="#1e293b" />
+    <text x="28" y="76" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#38bdf8">Check Out Item</text>
+    <rect x="28" y="90" width="154" height="26" rx="4" fill="#0b1120" />
+    <text x="36" y="107" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#64748b">Student Roll / ID...</text>
+    <rect x="28" y="124" width="154" height="26" rx="4" fill="#0b1120" />
+    <text x="36" y="141" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#64748b">Book ISBN / Barcode...</text>
+    <rect x="28" y="160" width="154" height="30" rx="4" fill="url(#bookGrad)" />
+    <text x="105" y="180" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#ffffff" text-anchor="middle">Issue Book</text>
+
+    <!-- Due Today Counter -->
+    <rect x="16" y="220" width="178" height="70" rx="8" fill="#1e293b" />
+    <text x="28" y="244" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94a3b8">Overdue Alerts</text>
+    <text x="28" y="274" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="700" fill="#f87171">3 Returns Due</text>
+  </g>
+
+  <!-- Right Main Area: Books Inventory -->
+  <g transform="translate(265, 65)">
+    <rect width="505" height="400" rx="10" fill="#0f172a" stroke="#1e293b" />
+    <text x="24" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#f8fafc">Book Catalog &amp; Inventory Status</text>
+
+    <!-- Grid Cards -->
+    <!-- Card 1 -->
+    <g transform="translate(24, 52)">
+      <rect width="216" height="150" rx="8" fill="#1e293b" stroke="#334155" />
+      <rect x="14" y="14" width="34" height="48" rx="3" fill="#6366f1" />
+      <text x="56" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Clean Code</text>
+      <text x="56" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94a3b8">Robert C. Martin</text>
+      <text x="14" y="86" font-family="'JetBrains Mono', monospace" font-size="10" fill="#cbd5e1">ISBN: 978-0132350884</text>
+      <rect x="14" y="106" width="70" height="22" rx="4" fill="#065f46" />
+      <text x="49" y="121" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#34d399" text-anchor="middle">Available</text>
+      <text x="100" y="121" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94a3b8">Copies: 4/5</text>
+    </g>
+
+    <!-- Card 2 -->
+    <g transform="translate(264, 52)">
+      <rect width="216" height="150" rx="8" fill="#1e293b" stroke="#334155" />
+      <rect x="14" y="14" width="34" height="48" rx="3" fill="#a855f7" />
+      <text x="56" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Intro to Algorithms</text>
+      <text x="56" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94a3b8">CLRS</text>
+      <text x="14" y="86" font-family="'JetBrains Mono', monospace" font-size="10" fill="#cbd5e1">ISBN: 978-0262033848</text>
+      <rect x="14" y="106" width="70" height="22" rx="4" fill="#854d0e" />
+      <text x="49" y="121" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#fde047" text-anchor="middle">Checked Out</text>
+      <text x="100" y="121" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94a3b8">Due: Friday</text>
+    </g>
+
+    <!-- Card 3 -->
+    <g transform="translate(24, 222)">
+      <rect width="216" height="150" rx="8" fill="#1e293b" stroke="#334155" />
+      <rect x="14" y="14" width="34" height="48" rx="3" fill="#0ea5e9" />
+      <text x="56" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Computer Networks</text>
+      <text x="56" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94a3b8">Andrew Tanenbaum</text>
+      <text x="14" y="86" font-family="'JetBrains Mono', monospace" font-size="10" fill="#cbd5e1">ISBN: 978-0132126953</text>
+      <rect x="14" y="106" width="70" height="22" rx="4" fill="#065f46" />
+      <text x="49" y="121" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#34d399" text-anchor="middle">Available</text>
+      <text x="100" y="121" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94a3b8">Copies: 2/3</text>
+    </g>
+
+    <!-- Card 4 -->
+    <g transform="translate(264, 222)">
+      <rect width="216" height="150" rx="8" fill="#1e293b" stroke="#334155" />
+      <rect x="14" y="14" width="34" height="48" rx="3" fill="#ec4899" />
+      <text x="56" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Database Concepts</text>
+      <text x="56" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94a3b8">Silberschatz &amp; Korth</text>
+      <text x="14" y="86" font-family="'JetBrains Mono', monospace" font-size="10" fill="#cbd5e1">ISBN: 978-0073523323</text>
+      <rect x="14" y="106" width="70" height="22" rx="4" fill="#065f46" />
+      <text x="49" y="121" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#34d399" text-anchor="middle">Available</text>
+      <text x="100" y="121" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94a3b8">Copies: 6/6</text>
+    </g>
+  </g>
+</svg>
