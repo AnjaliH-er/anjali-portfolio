@@ -13,8 +13,8 @@ export const socialLinks = [
   },
   {
     name: "Email",
-    url: "mailto:hiremathanjalj13@gmail.com",
+    url: "mailto:hiremathanjali13@gmail.com",
     iconName: "Mail",
-    email: "hiremathanjalj13@gmail.com"
+    email: "hiremathanjali13@gmail.com"
   }
 ];

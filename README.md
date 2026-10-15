@@ -10,7 +10,7 @@ Designed with a **dark navy / electric blue / purple** aesthetic alongside a cle
 
 - **GitHub Repository**: [https://github.com/AnjaliH-er](https://github.com/AnjaliH-er)
 - **LinkedIn Profile**: [https://www.linkedin.com/in/anjali-hiremath-1b9100301/](https://www.linkedin.com/in/anjali-hiremath-1b9100301/)
-- **Contact Email**: [hiremathanjalj13@gmail.com](mailto:hiremathanjalj13@gmail.com)
+- **Contact Email**: [hiremathanjali13@gmail.com](mailto:hiremathanjali13@gmail.com)
 
 ---
 
